@@ -1,0 +1,188 @@
+body{
+	font-family:arial;font-size:13px;color:#212121;background:#fff;
+}
+.color{color:#337ab7;}
+.cgreen{color:#0A0;}
+.cred{color:#f00;}
+.cviolet{color:violet;}
+.radi0{border-radius: 0;}
+.no-padding{padding: 0!important;}
+.bright{border-right: 1px solid #ccc;}
+.bleft{border-left: 1px solid #ccc;}
+.menu{margin:0px;padding:0px;list-style:none;}
+.menu li{position:relative;line-height:30px;padding:0px 11px;}
+.menu li.checked{background: #337ab7;}
+.menu li.checked>a{color:#FFFFFF;font-weight: bold;text-decoration: none;}
+.menuH li{display:block;float:none;}
+.menuV li{display:inline;float:left;}
+.menu li a{display:block;}
+#navbar a{color:#fff;}
+#navbar .navbar-brand,#navbar .navbar-brand:hover{color:#fff;}
+#navbar .form-profile{padding:0px 7px;}
+#navbar .form-profile .dropdown-menu a{color: #333333;}
+#site_body{margin-left:0px;}
+#site_body .body_top{height:51px;}
+#site_body .body_body{position:relative;}
+#site_body .body_body .body_col_right{padding-right:0px;}
+#site_body .body_body .user_group_list{height:50%;overflow:auto;}
+#site_body .body_body .user_group_func{border-top: 1px solid #ccc; overflow:hidden;font-size:16px;}
+#site_body .com_header,#site_body .panel-heading{
+	font-size: 16px;
+	font-weight:bold;
+	line-height: 42px;
+	background:#ddd;
+	padding:0px 10px;
+}
+#site_body .list_search{display:block;padding:5px 0px; }
+#left_sidebar{
+	position: fixed!important;
+	background-clip: padding-box;
+	background-color: #e9eaed;
+	border-right: 1px solid #ccc;
+	box-shadow: 1px 0 0 #f0f0f2 inset;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 220px;
+	z-index: 300;
+}
+#left_sidebar .sidebar_top{
+	height:51px;
+}
+#left_sidebar .sidebar_body{
+	position:relative;
+	padding:0px 3px;
+	overflow:hidden;
+}
+#left_sidebar .sidebar_body a{
+	display:block;
+	font-size:16px;
+	line-height:42px;
+	white-space:nowrap;
+	border-bottom: 1px solid #ddd;
+}
+#left_sidebar .sidebar_body a:hover{
+	background:#f1f1f1;
+	text-decoration: none;
+}
+#left_sidebar .sidebar_body a i{
+	font-size:17px;
+	margin-right: 8px;
+}
+#left_sidebar i { width:15px}
+#left_sidebar .fa-caret-left { margin-top:10px;}
+.navbar-default{
+	background:#3b5998;
+	border-bottom: 1px solid #29487d;
+	color: #fff;
+}
+.navbar-default .navbar-brand{color:#fff !important;}
+
+table.calendar th,table.calendar td{border:#ccc 1px solid;}
+table.calendar td{text-align:right;}
+table.calendar .pre_month,table.calendar .nex_month{cursor:pointer;}
+table.calendar td.cell{cursor:pointer;}
+table.calendar td.curent{font-weight:bold;background:#bb66ff;}
+table.calendar td.disable{background:#eee;color:#999;}
+table.calendar td.action{background:#f00;color:#fff;font-weight: bold;cursor:pointer}
+.txt_to_hour,.txt_from_hour {width:80px;}
+
+/*HIEP*/
+/*form login*/
+.login_form.well{
+	box-shadow: none;
+}
+.login_form input{
+	border-radius: 0;
+}
+.header-login h3{
+	margin: 0;
+	margin-bottom: 20px;
+}
+.modal-content{
+	border-radius: 0;
+}
+.modal-content button,
+.modal-content input,
+.modal-content select,
+.modal-content textarea{
+	border-radius: 0;
+	outline: none;
+}
+.modal-content .form-control:focus{
+	box-shadow: none;
+}
+#notification {
+	position: fixed;
+	top: 0;
+	right: 0px;
+	left: 0;
+	z-index: 105;
+	text-align: center;
+	font-weight: normal;
+	background: #49a81a;
+	color: #FFF;
+	font-size: 18px;
+	padding: 10px;
+}
+#notification span{
+	font-weight:bold;
+}
+table.table-bordered i{
+	font-size: 16px;
+	cursor: pointer;
+}
+ul.list{
+	list-style: none;
+	padding-left: 0;
+}
+.panel-default>.panel-heading{
+	color: #337ab7;
+}
+.smart-form .label {
+	display: block;
+	margin-bottom: 6px;
+	line-height: 19px;
+	font-size: 13px;
+	color: #333;
+	text-align: left;
+	white-space: normal;
+}
+.smart-form .label span{
+	font-weight: 400;
+}
+.smart-form .select{
+	position: relative;
+	display: block;
+	width: 100%;
+}
+fieldset legend.title{
+	display: block;
+	position: relative;
+}
+fieldset legend.title>span{
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+.dis-flex{display: flex;justify-content: row;}
+#show-img img{
+	width: 80px;
+	margin-top: 10px;
+}
+.tb_avatar{
+	width: 120px;
+	margin-right: 15px;
+	max-height: 160px;
+}
+.list_info_member label{
+	width: 100px;
+}
+.cmd_delSchedule{
+	cursor: pointer;
+	font-size: 20px;
+	float: right;
+}
+#show-img img{
+	width: 80px;
+}
